@@ -48,15 +48,19 @@ h3{
     font-size: 32px;
     margin-bottom: 5%;
 }
+.roupas{
+    margin-bottom: 5%;
+}
 .valor{
     margin-bottom: 5%;
     
 }
 .comprar{
+    margin-bottom: 5%;
     
 }
 .tamanhos{
-    
+    margin-bottom: 5%;
 }
 button, input{
     font-size: 24px;
