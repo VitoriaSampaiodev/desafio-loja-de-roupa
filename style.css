@@ -52,25 +52,36 @@ h3{
 }
 .roupas{
     margin-bottom: 8%;
+    margin-left: 20%;
+   
 }
 .valor{
     margin-bottom: 13%;
-    
+    margin-left: 34.5%;
 }
 .comprar{
     margin-bottom: 8%;
-    
+    margin-left: 34.5%;
+}
+.alternativas{
+    margin-left: 35%;
 }
 .tamanhos{
     margin-bottom: 8%;
+    
+}
+.titulo_footer{
+    margin-left: 1%;
 }
 button, input{
     font-size: 24px;
     border: 0 none;
     background-color: #D9D9D9;
+    
 }
 label {
     font-size: 24px;
+    margin-left: 1%;
 }
 .bloco{
     height: 29px;
