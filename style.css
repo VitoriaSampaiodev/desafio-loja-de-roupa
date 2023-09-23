@@ -43,24 +43,25 @@ form{
     height: 119px;
     
     
+    
 }
 h3{
     font-size: 32px;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 .roupas{
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 .valor{
-    margin-bottom: 5%;
+    margin-bottom: 13%;
     
 }
 .comprar{
-    margin-bottom: 5%;
+    margin-bottom: 8%;
     
 }
 .tamanhos{
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 button, input{
     font-size: 24px;
