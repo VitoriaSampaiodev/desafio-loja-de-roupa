@@ -18,7 +18,11 @@ li{
 }
 
 div{
-  display: inline;
+  display: inline-block;
+  width: 24%;
+  height: 25%;
+  padding: 16px;
+  box-sizing: border-box;
 }
 
 
@@ -28,22 +32,36 @@ img{
 form{
     
 }
-
 footer{
     background-color: #E8A6FF;
     font-size: 30px;
     height: 119px;
-    padding: 1%;
-    
-    
-    
-}
+} 
 .rodape{
     font-size: 30px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 1%;
+    background-color: #E8A6FF;
+    font-size: 30px;
+    height: 119px;
+   
     
 }
 h3{
     font-size: 32px;
+    margin-bottom: 5%;
+}
+.valor{
+    margin-bottom: 5%;
+    
+}
+.comprar{
+
+}
+.tamanhos{
+
 }
 button, input{
     font-size: 24px;

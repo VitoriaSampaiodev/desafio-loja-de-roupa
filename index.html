@@ -21,33 +21,33 @@
     </header>
     <main>
         <section>
-            <div class="primeiro">
+            <div>
                 <img src="/assents/image 6.png" alt="">
-                <h3>R$ 180,00</h3>
+                <h3 class="valor">R$ 180,00</h3>
+                <button class="comprar">COMPRAR</button>
+                <form>
+                    <label>P</label>
+                    <input class="tamanhos" type="radio" name="tamanhos" id="p" />
+
+                    <label>M</label>
+                    <input class="tamanhos" type="radio" name="tamanhos" id="m" />
+
+                    <label>G</label>
+                    <input class="tamanhos" type="radio" name="tamanhos" id="g" />
+
+                    <label>GG</label>
+                    <input class="tamanhos" type="radio" name="tamanhos" id="gg" />
+                </form>
+            </div>
+            <div>
+                <img src="./assents/image 2.png" alt="">
+                <h3>R$ 20,00</h3>
                 <button>COMPRAR</button>
                 <form>
                     <label>P</label>
                     <input type="radio" name="tamanhos" id="p" />
 
                     <label>M</label>
-                    <input type="radio" name="tamanhos" id="m" />
-
-                    <label>G</label>
-                    <input type="radio" name="tamanhos" id="g" />
-
-                    <label>GG</label>
-                    <input type="radio" name="tamanhos" id="gg" />
-                </form>
-            </div>
-            <div> 
-            <img src="./assents/image 2.png" alt="">
-            <h3>R$ 20,00</h3>
-            <button>COMPRAR</button>
-            <form>
-                <label>P</label>
-                <input type="radio" name="tamanhos" id="p" />
-                
-                <label>M</label>
                     <input type="radio" name="tamanhos" id="m" />
 
                     <label>G</label>
@@ -96,15 +96,16 @@
         </section>
     </main>
     <footer>
-        <p class="rodape">FAÇA O SEU CADASTRO:</p>
-        <label for="name">NOME:</label>
-        <input class="bloco" id="name" type="text" name="name" placeholder="" class="nome">
-        <label for="number">EMAIL:</label>
-        <input class="bloco" id="number" type="number" name="number" placeholder="">
-        <label for="password">SENHA:</label>
-        <input class="bloco" id="password" type="password" name="password" placeholder="">
-        <input type="submit" value="ENVIAR">
-
+        <div class="rodape">
+            <p >FAÇA O SEU CADASTRO:</p>
+            <label for="name">NOME:</label>
+            <input class="bloco" id="name" type="text" name="name" placeholder="" class="nome">
+            <label for="number">EMAIL:</label>
+            <input class="bloco" id="number" type="number" name="number" placeholder="">
+            <label for="password">SENHA:</label>
+            <input class="bloco" id="password" type="password" name="password" placeholder="">
+            <input type="submit" value="ENVIAR">
+        </div>
 
     </footer>
 </body>
